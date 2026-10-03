@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trader Congolais Capital : Challenges de trading</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070B1A;--panel:#11182F;--line:#25305A;--ink:#EEF1FA;--mute:#98A2C7;--gold:#F5B83D;--blue:#5B8CFF;--on:#1A1203;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#F4F6FC;--panel:#FFFFFF;--line:#D3D9EE;--ink:#0B1230;--mute:#4C5886;--gold:#B87A00;--blue:#2F5FE0;--on:#FFFFFF}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Manrope,system-ui,sans-serif}
+h1,h2,h3{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;line-height:1.02;margin:0;text-transform:uppercase}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+h1{font-size:clamp(40px,11vw,84px);letter-spacing:-.01em}
+h1 span{color:var(--gold)}
+h2{font-size:clamp(28px,7vw,44px);margin-bottom:24px}
+h3{font-size:20px}
+p{margin:0 0 14px}.mute{color:var(--mute)}
+.brand{display:flex;align-items:center;gap:12px;padding:22px 0 0}
+.logo{flex:none;width:46px;height:46px;border-radius:4px;background:var(--gold);color:var(--on);font:400 20px "Archivo Black",sans-serif;display:flex;align-items:center;justify-content:center}
+.brand strong{font:400 clamp(20px,5.5vw,30px) "Archivo Black",sans-serif;text-transform:uppercase;line-height:1}
+.brand strong span{color:var(--gold)}
+.hero{padding:44px 0 56px}
+.lead{font-size:19px;margin:22px 0 28px;max-width:560px}
+.btn{display:inline-block;background:var(--gold);color:var(--on);font:800 17px Manrope,sans-serif;padding:17px 28px;border-radius:4px;text-decoration:none}
+.btn:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.ticker{overflow:hidden;white-space:nowrap;border-block:1px solid var(--line);background:var(--panel);padding:12px 0;font-weight:800;color:var(--gold)}
+.ticker div{display:inline-block;padding-left:100%;animation:run 28s linear infinite}
+@keyframes run{to{transform:translateX(-100%)}}
+@media(prefers-reduced-motion:reduce){.ticker div{animation:none;padding-left:20px}}
+.sizes{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.sizes button{font:800 16px Manrope,sans-serif;background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:12px 18px;cursor:pointer}
+.sizes button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.plans{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.plan{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:4px;padding:24px}
+.plan.b{border-top-color:var(--blue)}
+.price{font:400 38px "Archivo Black",sans-serif;margin:10px 0 18px}
+.plan dl{margin:0 0 20px}
+.plan dl div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}
+.plan dt{color:var(--mute)}.plan dd{margin:0;font-weight:800;text-align:right}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.tile{border:1px solid var(--line);border-radius:4px;padding:20px;background:var(--panel)}
+.tile b{display:block;font:400 30px "Archivo Black",sans-serif;color:var(--gold);margin-bottom:6px}
+.risk{border:1px solid var(--gold);border-radius:4px;padding:20px}
+details{border-bottom:1px solid var(--line);padding:16px 0}
+summary{font-weight:800;cursor:pointer}
+details p{margin:10px 0 0;color:var(--mute)}
+footer{padding:28px 0 44px;font-size:14px;color:var(--mute)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="brand"><div class="logo" aria-hidden="true">TCC</div><strong>Trader Congolais <span>Capital</span></strong></div>
+<header class="hero">
+<h1>Passe le test.<br><span>Garde 80 %</span> des profits.</h1>
+<p class="lead">Trader Congolais Capital te donne un compte de gestion jusqu'à 100 000 FCFA. Atteins l'objectif, respecte les limites de perte, et deviens trader financé.</p>
+<a class="btn" href="https://wa.me/242061976785?text=Bonjour%2C%20je%20veux%20d%C3%A9marrer%20un%20challenge">Démarrer un challenge</a>
+</header>
+</div>
+<div class="ticker" aria-hidden="true"><div>Aucune limite de temps  ·  Retraits tous les 14 jours  ·  Jusqu'à 80 % des profits  ·  Règles fixes après l'achat  ·  Paiement MTN MoMo et Airtel Money  ·  Aucune limite de temps  ·  Retraits tous les 14 jours  ·  Jusqu'à 80 % des profits  ·  Règles fixes après l'achat</div></div>
+
+<div class="wrap">
+<section>
+<h2>Choisis ton compte</h2>
+<div class="sizes" id="sizes" role="group" aria-label="Taille du compte"></div>
+<div class="plans">
+<div class="plan">
+<h3>2 étapes</h3><div class="price" id="p2"></div>
+<dl>
+<div><dt>Objectif</dt><dd>10 % puis 5 %</dd></div>
+<div><dt>Perte par jour</dt><dd>5 %</dd></div>
+<div><dt>Perte totale</dt><dd>10 %</dd></div>
+<div><dt>Jours minimum</dt><dd>4 par phase</dd></div>
+</dl>
+<a class="btn" href="https://wa.me/242061976785?text=Challenge%202%20%C3%A9tapes">Prendre ce challenge</a>
+</div>
+<div class="plan b">
+<h3>1 étape</h3><div class="price" id="p1"></div>
+<dl>
+<div><dt>Objectif</dt><dd>10 %</dd></div>
+<div><dt>Perte par jour</dt><dd>4 %</dd></div>
+<div><dt>Perte totale</dt><dd>6 %</dd></div>
+<div><dt>Jours minimum</dt><dd>4</dd></div>
+</dl>
+<a class="btn" href="https://wa.me/242061976785?text=Challenge%201%20%C3%A9tape">Prendre ce challenge</a>
+</div>
+</div>
+<p class="mute" style="margin-top:14px">Pourcentages calculés sur le solde de départ. Frais uniques.</p>
+</section>
+
+<section>
+<h2>Les règles en clair</h2>
+<div class="grid">
+<div class="tile"><b>0 jour</b>Limite de temps : aucune. Tu trades à ton rythme.</div>
+<div class="tile"><b>14 jours</b>Délai entre deux retraits sur compte financé.</div>
+<div class="tile"><b>2 min</b>Pas de trade autour des news majeures sur compte financé de base. Autorisé pendant l'évaluation.</div>
+<div class="tile"><b>1 compte</b>Un seul compte par personne. Les comptes partagés sont disqualifiés.</div>
+</div>
+</section>
+
+<section>
+<h2>De l'achat au compte financé</h2>
+<div class="grid">
+<div class="tile"><b>1</b>Tu choisis ton challenge et tu paies.</div>
+<div class="tile"><b>2</b>Tu atteins l'objectif sans dépasser les limites.</div>
+<div class="tile"><b>3</b>Tu passes la vérification d'identité.</div>
+<div class="tile"><b>4</b>Tu reçois ton compte financé sous 1 à 2 jours ouvrables.</div>
+</div>
+</section>
+
+<section>
+<h2>Questions</h2>
+<details><summary>Les comptes et les gains sont-ils réels ?</summary><p>Les comptes de trading sont virtuels, mais les gains que nous versons aux traders financés sont réels : ils sont payés en argent réel, selon ta part de profits (jusqu'à 80 %) et nos règles de retrait.</p></details>
+<details><summary>Que se passe-t-il si j'échoue ?</summary><p>Le challenge s'arrête. Tu peux en acheter un nouveau.</p></details>
+<details><summary>Comment contacter le support ?</summary><p>Par WhatsApp au +242 06 197 6785 ou par email à kingasublime8@gmail.com.</p></details>
+</section>
+
+<section>
+<div class="risk"><h3>Avertissement</h3>
+<p class="mute" style="margin-top:12px">Trader Congolais Capital n'est pas un courtier et ne gère pas de fonds de clients. Les résultats sur compte virtuel ne sont pas des profits de trading réels. Le trading comporte un risque élevé de perte. Lis toutes les règles avant d'acheter un challenge.</p></div>
+</section>
+<footer>© Trader Congolais Capital · Congo-Brazzaville</footer>
+</div>
+<script>
+var S=[["20 000 FCFA","1 100"],["30 000 FCFA","1 500"],["50 000 FCFA","3 150"],["70 000 FCFA","3 900"],["100 000 FCFA","5 000"]];
+var box=document.getElementById("sizes");
+function pick(i){
+  document.getElementById("p2").textContent=S[i][1]+" FCFA";
+  document.getElementById("p1").textContent=S[i][1]+" FCFA";
+  [].forEach.call(box.children,function(b,j){b.setAttribute("aria-pressed",j==i)});
+}
+S.forEach(function(s,i){var b=document.createElement("button");b.textContent=s[0];b.onclick=function(){pick(i)};box.appendChild(b)});
+pick(2);
+</script>
+</body>
+</html>
